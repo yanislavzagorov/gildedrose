@@ -21,6 +21,7 @@ public class GildedRoseTest {
 	}
 	GildedRose app = new GildedRose(items);
 	app.updateQuality();
+	System.out.println("HEY! LISTEN! Quality is:" + app.items[0].quality);
 	assertEquals(3, app.items[0].quality)
     }
 }
