@@ -21,6 +21,6 @@ public class GildedRoseTest {
 	};
 	GildedRose app = new GildedRose(testItems);
 	app.updateQuality();
-	assertEquals("Aged Brie", app.testItems[0].name);
+	assertEquals("Aged Brie", app.items[0].name);
     }
 }
